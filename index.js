@@ -15,5 +15,9 @@ app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
 
+app.get('/analyze', (req, res) => {
+  res.send('This is my analize route for later connect to Gemini AI ')
+})
+
 // Export the Express API
 module.exports = app
